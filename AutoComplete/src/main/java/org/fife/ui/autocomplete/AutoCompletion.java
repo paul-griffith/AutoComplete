@@ -836,6 +836,9 @@ public class AutoCompletion {
 					popupWindow
 							.setDescriptionWindowSize(preferredDescWindowSize);
 				}
+				if (descWindowColor != null) {
+					popupWindow.setDescriptionWindowColor(descWindowColor);
+				}
 			}
 
 			popupWindow.setCompletions(completions);
